@@ -1,13 +1,8 @@
 {
-  "functions": {
-    "api/transcript.py": {
-      "runtime": "python3.11"
-    }
-  },
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/transcript",
-      "dest": "api/transcript.py"
+      "source": "/api/transcript",
+      "destination": "/api/transcript.py"
     }
   ]
 }
